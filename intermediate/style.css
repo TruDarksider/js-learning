@@ -1,0 +1,36 @@
+.addBook {
+    background-color: blueviolet;
+    color: white;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+}
+
+.bookCard {
+    background-color: rgb(0, 173, 173);
+    border: 1px solid rgb(245, 117, 139);
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.confirmAdd {
+    background-color: rgb(245, 187, 116);
+    border: none;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+}
+
+.library {
+    display: flex;
+    gap: 15px;
+}
+
+.trash {
+    background-color: rgb(223, 90, 90);
+}

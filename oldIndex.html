@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <Title>Title</Title>
+    </head>
+    <body>
+        <script>
+            let add7 = (number=1) => number+7;
+            let multiply = (num1=1,num2=2) => num1*num2;
+            let capitalize = (text="no text given") => text.charAt(0).toUpperCase()+text.slice(1);
+            let lastLetter = (newText="give text") => newText.slice(-1);
+            console.log(add7(4))
+            console.log(add7())
+            console.log(multiply(2,4))
+            console.log(multiply())
+            console.log(capitalize("oops"))
+            console.log(capitalize("Oops"))
+            console.log(capitalize("OoPs"))
+            console.log(capitalize())
+            console.log(lastLetter("wazzup my dude"))
+            console.log(lastLetter("wazzup my dudes"))
+            console.log(lastLetter("wazzup my lady"))
+            console.log(lastLetter())
+        </script>
+    </body>
+</html>
